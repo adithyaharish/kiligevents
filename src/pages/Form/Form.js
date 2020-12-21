@@ -1,15 +1,12 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
 import emailjs from "emailjs-com";
-import { SiGmail } from 'react-icons/si';
 import {
   FooterContainer,
   FooterSubscription,
   FooterSubHeading,
-  FooterSubText,
    Form,
-  FormInput,
-  SocialIconLink
+  FormInput
 
 } from './Form.elements';
 
@@ -27,6 +24,8 @@ function sendEmail(e) {
 
 function Forms() {
     return (
+
+      <div id="form">
       <FooterContainer>
         <FooterSubscription>
           <FooterSubHeading>
@@ -42,14 +41,12 @@ function Forms() {
           <FormInput name='requirements' type='text' placeholder='Requirements' />
           <Button fontBig value="Send">Send</Button>
         </Form>
-       
-
-        
 
         </FooterSubscription>
 
-
         </FooterContainer>
+
+        </div>
     );
 }
 export default Forms;

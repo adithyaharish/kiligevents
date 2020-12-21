@@ -2,9 +2,9 @@ import React, { useState, useEffect }  from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles';
-import { Link } from 'react-router-dom';
-import { Nav, NavbarContainer, 
-    NavLogo, NavIcon, 
+import {Link} from 'react-scroll';
+
+import { Nav, NavbarContainer,  
     MobileIcon,NavMenu,
     NavItem,
     NavLinks,
@@ -45,13 +45,7 @@ const Navbar = () => {
        <IconContext.Provider value={{ color: '#fff' }}>
             <Nav> 
             <NavbarContainer>
-              {/*}
-              <NavLogo to="/" onClick={closeMobileMenu}>
-                    <NavIcon />
-                    KILIG EVENTS
-                </NavLogo>
-    */}
-    
+             
     <ImgWrapper to="/" onClick={closeMobileMenu} start='true'>
 
                 <Img src= {require('../../images/KILIG LOGO.jpg').default} alt={'img'} />
@@ -61,34 +55,48 @@ const Navbar = () => {
                 </MobileIcon>
 
                 <NavMenu onClick={handleClick} click={click}>
+
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
+              <Link  to="home" spy={true} smooth={true}>
+                <NavLinks>
                   Home
+                  
                 </NavLinks>
+                </Link>
               </NavItem>
               
               <NavItem>
-                <NavLinks to='/products' onClick={closeMobileMenu}>
+              <Link  to="gallery" spy={true} smooth={true}>
+              <NavLinks>
+              
                   Gallery
+                
                 </NavLinks>
+                </Link>
               </NavItem>
 
               <NavItem>
-                <NavLinks to='/services' onClick={closeMobileMenu}>
-                  Services
+              <Link  to="services" spy={true} smooth={true}>
+                <NavLinks>
+                  Services 
                 </NavLinks>
+                </Link>
               </NavItem>
  
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to='/sign-up'>
+                  <NavBtnLink>
+                    <Link  to="reach out" spy={true} smooth={true}>
                     <Button primary>REACH OUT</Button>
+                    </Link>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to='/sign-up'>
+                  <NavBtnLink>
+                    <Link  to="reach out" spy={true} smooth={true}>
                     <Button onClick={closeMobileMenu} fontBig primary>
                       REACH OUT
                     </Button>
+                    </Link>
                   </NavBtnLink>
                 )}
               </NavItemBtn>

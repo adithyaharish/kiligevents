@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { Container, Button } from '../../globalStyles';
 import {
   InfoSec,
@@ -9,8 +9,7 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  ImgWrapper,
-  Img
+  ImgWrapper
 } from './Gallery.elements';
 import ReactPlayer from 'react-player';
 
@@ -40,7 +39,7 @@ function Gallery({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to='/who are we'>
+                <Link  to="home2" spy={true} smooth={true}>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>

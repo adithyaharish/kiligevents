@@ -3,9 +3,7 @@ import { Button } from '../../globalStyles';
 import emailjs from "emailjs-com";
 import {
   FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
+  FaInstagram
 
 } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
@@ -24,17 +22,10 @@ import {
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
-  SocialIcon,
-  WebsiteRights,
-  SocialIcons,
   SocialIconLink
 
 } from './Footer.elements';
 
-function NewlineText(props) {
-  const text = props.text;
-  return text.split('\n').map(str => <p>{str}</p>);
-}
 
 function sendEmail(e) {
   e.preventDefault();

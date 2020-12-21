@@ -1,9 +1,6 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { AiFillThunderbolt } from 'react-icons/ai';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { GiFloatingCrystal } from 'react-icons/gi';
+import { Link } from 'react-scroll';
 import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
@@ -12,10 +9,7 @@ import {
   PricingContainer,
   PricingCard,
   PricingCardInfo,
-  PricingCardIcon,
   PricingCardPlan,
-  PricingCardCost,
-  PricingCardLength,
   PricingCardFeatures,
   PricingCardFeature
 } from './Pricing.elements';
@@ -30,7 +24,8 @@ function Pricing() {
 
           <PricingContainer>
 
-            <PricingCard to='/forms'>
+          
+            <PricingCard >
               <PricingCardInfo>
                 {/*<PricingCardIcon>
                   <GiRock />
@@ -41,7 +36,7 @@ function Pricing() {
                 <PricingCardFeatures>
                   <PricingCardFeature>Invitation</PricingCardFeature>
                   <PricingCardFeature>Bridal makeup and mehandhi</PricingCardFeature>
-                  <PricingCardFeature>Photofraphy</PricingCardFeature>
+                  <PricingCardFeature>Photography</PricingCardFeature>
                   <PricingCardFeature>catering</PricingCardFeature>
                   <PricingCardFeature>Decoration</PricingCardFeature>
                   <PricingCardFeature>Anchor</PricingCardFeature>
@@ -53,13 +48,16 @@ function Pricing() {
                   <PricingCardFeature>Welcome by luxury cars</PricingCardFeature>
                   <PricingCardFeature>Travell and accomodation</PricingCardFeature>
                 </PricingCardFeatures>
+                <Link to="form" spy={true} smooth={true}> 
                 <Button primary>Choose Plan</Button>
+                </Link>
               </PricingCardInfo>
             </PricingCard>
+            
 
 
 
-            <PricingCard to='/forms'>
+            <PricingCard >
               <PricingCardInfo>
                 {/*<PricingCardIcon>
                   <GiRock />
@@ -82,12 +80,14 @@ function Pricing() {
                   <PricingCardFeature>Dance</PricingCardFeature>
                   <PricingCardFeature>Travel and accomodation</PricingCardFeature>
                 </PricingCardFeatures>
+                <Link to="form" spy={true} smooth={true}> 
                 <Button primary>Choose Plan</Button>
+                </Link>
               </PricingCardInfo>
             </PricingCard>
 
 
-            <PricingCard to='/forms'>
+            <PricingCard >
               <PricingCardInfo>
                 {/*<PricingCardIcon>
                   <GiRock />
@@ -116,7 +116,9 @@ function Pricing() {
                   <PricingCardFeature>   </PricingCardFeature>
                   
                 </PricingCardFeatures>
+                <Link to="form" spy={true} smooth={true}> 
                 <Button primary>Choose Plan</Button>
+                </Link>
               </PricingCardInfo>
             </PricingCard>
 
@@ -124,10 +126,12 @@ function Pricing() {
 
           </PricingContainer>
 
+          
+
 
           <PricingContainer>
 
-          <PricingCard to='/forms'>
+          <PricingCard>
               <PricingCardInfo>
                 {/*<PricingCardIcon>
                   <GiRock />
@@ -140,7 +144,6 @@ function Pricing() {
                   <PricingCardFeature>Bridal makeup and mehandhi</PricingCardFeature>
                   <PricingCardFeature>Photography and Decoration</PricingCardFeature>
                   <PricingCardFeature>Catering</PricingCardFeature>
-                 
                   <PricingCardFeature>Malai and Chenda melan</PricingCardFeature>
                   <PricingCardFeature>Anchor</PricingCardFeature>
                   <PricingCardFeature>DJ and lighting</PricingCardFeature>
@@ -150,14 +153,15 @@ function Pricing() {
                   <PricingCardFeature>Games,magic show</PricingCardFeature>
                   <PricingCardFeature> Tatoo and painting</PricingCardFeature>
                   <PricingCardFeature>Travell and accomodation</PricingCardFeature>
-
                 </PricingCardFeatures>
+                <Link to="form" spy={true} smooth={true}> 
                 <Button primary>Choose Plan</Button>
+                </Link>
               </PricingCardInfo>
             </PricingCard>
 
 
-            <PricingCard to='/forms'>
+            <PricingCard>
               <PricingCardInfo>
                 {/*<PricingCardIcon>
                   <GiRock />
@@ -189,12 +193,14 @@ function Pricing() {
                   <PricingCardFeature>   </PricingCardFeature>
 
                 </PricingCardFeatures>
+                <Link to="form" spy={true} smooth={true}> 
                 <Button primary>Choose Plan</Button>
+                </Link>
               </PricingCardInfo>
             </PricingCard>
             
 
-            <PricingCard to='/forms'>
+            <PricingCard >
               <PricingCardInfo>
                 {/*<PricingCardIcon>
                   <GiRock />
@@ -219,7 +225,9 @@ function Pricing() {
                   <PricingCardFeature>badam milk shake</PricingCardFeature>
 
                 </PricingCardFeatures>
+                <Link to="form" spy={true} smooth={true}> 
                 <Button primary>Choose Plan</Button>
+                </Link>
               </PricingCardInfo>
             </PricingCard>
 

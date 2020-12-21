@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { Container, Button } from '../../globalStyles';
 import {
   InfoSec,
@@ -39,7 +39,7 @@ function InfoSection({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to={link}> 
+                <Link to={link} spy={true} smooth={true}> 
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>

@@ -1,31 +1,45 @@
 import React from 'react'
 import { InfoSection, Gallery } from '../../components';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjThree2,homeObjThree3,TopLine } from './Data';
+import { homeObjOne, homeObjTwo, homeObjFour,TopLine } from './Data';
 import { Pricing } from '../../components';
-import ReactDOM from "react-dom";
-import Carousel from "react-elastic-carousel";
 import ImageSlider from './ImageSlider';
 import { SliderData } from './SliderData';
 import '../App.css'
-import ReactPlayer from 'react-player';
 import Footer from '../../components/Footer/Footer';
-
+import Form from '../Form/Form';
 
 function Home() {
     return (
         <>
-        
+        <div id="home">
          <Gallery {...homeObjOne} />
-        
-      <InfoSection {...homeObjTwo} />
 
+        </div>
+
+        <div id="home2">
+      <InfoSection {...homeObjTwo} />
+      </div>
+
+        <div id="gallery">
       <TopLine>Gallery</TopLine>
       <ImageSlider slides={SliderData} />;
-          
+      </div>
       
+      <div id="services">
       <Pricing />
-      <InfoSection {...homeObjFour} />
+      </div>
+
+      <div id="about"> 
+      <InfoSection  {...homeObjFour} />
+      </div>
+
+      <div id="form"> 
+      <Form />
+      </div>
+
+      <div id="reach out">
       <Footer />
+      </div>
         </>
     );
 }

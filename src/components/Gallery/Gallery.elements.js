@@ -48,6 +48,11 @@ export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
   justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+  &:hover {
+    transform: scale(1.06);
+    transition: all 0.3s ease-out;
+    color: #1c2237;
+  }
   @media screen and (max-width: 768px) {
     max-width: 100%;
     flex-basis: 100%;

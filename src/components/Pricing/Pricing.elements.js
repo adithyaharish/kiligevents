@@ -38,6 +38,7 @@ export const PricingContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-bottom:24px;
   }
 `;
 
