@@ -37,7 +37,7 @@ function Pricing() {
                   <PricingCardFeature>Invitation</PricingCardFeature>
                   <PricingCardFeature>Bridal makeup and mehandhi</PricingCardFeature>
                   <PricingCardFeature>Photography</PricingCardFeature>
-                  <PricingCardFeature>catering</PricingCardFeature>
+                  <PricingCardFeature>Catering</PricingCardFeature>
                   <PricingCardFeature>Decoration</PricingCardFeature>
                   <PricingCardFeature>Anchor</PricingCardFeature>
                   <PricingCardFeature>Honeymoon package</PricingCardFeature>
@@ -46,7 +46,7 @@ function Pricing() {
                   <PricingCardFeature>Welcome girls</PricingCardFeature>
                   <PricingCardFeature>Tatoo and painting</PricingCardFeature>
                   <PricingCardFeature>Welcome by luxury cars</PricingCardFeature>
-                  <PricingCardFeature>Travell and accomodation</PricingCardFeature>
+                  <PricingCardFeature>Travel and accomodation</PricingCardFeature>
                 </PricingCardFeatures>
                 <Link to="form" spy={true} smooth={true}> 
                 <Button primary>Choose Plan</Button>
@@ -152,7 +152,7 @@ function Pricing() {
                   <PricingCardFeature>Welcome by luxury cars</PricingCardFeature>
                   <PricingCardFeature>Games,magic show</PricingCardFeature>
                   <PricingCardFeature> Tatoo and painting</PricingCardFeature>
-                  <PricingCardFeature>Travell and accomodation</PricingCardFeature>
+                  <PricingCardFeature>Travel and accomodation</PricingCardFeature>
                 </PricingCardFeatures>
                 <Link to="form" spy={true} smooth={true}> 
                 <Button primary>Choose Plan</Button>
@@ -214,15 +214,15 @@ function Pricing() {
                   <PricingCardFeature>Pop corn</PricingCardFeature>
                   <PricingCardFeature>Mehandhi</PricingCardFeature>
                  
-                  <PricingCardFeature>face painting</PricingCardFeature>
+                  <PricingCardFeature>Face painting</PricingCardFeature>
                   <PricingCardFeature>Bangle and baloon stall</PricingCardFeature>
-                  <PricingCardFeature>ice  cream stall</PricingCardFeature>
+                  <PricingCardFeature>Ice  cream stall</PricingCardFeature>
                   <PricingCardFeature>Fresh juice/fruits stall</PricingCardFeature>
-                  <PricingCardFeature>petty shops</PricingCardFeature>
+                  <PricingCardFeature>Petty shops</PricingCardFeature>
                   <PricingCardFeature>Chai items</PricingCardFeature>
                   <PricingCardFeature>Game</PricingCardFeature>
                   <PricingCardFeature> Portrait drawing</PricingCardFeature>
-                  <PricingCardFeature>badam milk shake</PricingCardFeature>
+                  <PricingCardFeature>Badam milk shake</PricingCardFeature>
 
                 </PricingCardFeatures>
                 <Link to="form" spy={true} smooth={true}> 
