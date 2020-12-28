@@ -31,8 +31,8 @@ export const homeObjOne = {
     topLine: 'WHO ARE WE AND WHAT WE DO',
     headline: '',
     description:
-      <NewlineText text={"Our main objective is to build a personal connect with customers. We plan outlines and all minute details of your event by structurinng and coordinating all moving parts."+
-      " We, Kilig events spend time both in and out our office and make sure we never failed to deliver quality results.\nThe positive feedbacks that we receive on our well trained and experience team keeps us moving."+
+      <NewlineText text={"Our main objective is to build a personal connect with customers. We plan outlines and all minute details of your event by structuring and coordinating all moving parts."+
+      " We, Kilig events spend time both in and out our office and make sure we never fail to deliver quality results.\nThe positive feedbacks that we receive on our well trained and experience team keeps us moving."+
     "\nYou are just 3 steps away from your dream event:\n1. Tell us your idea\n2. Let KILIG EVENTS do the magic\n3. Sit back and relax"} />,
     buttonLabel: 'Fill in your event',
     link:"form" ,
@@ -56,7 +56,7 @@ export const homeObjOne = {
     headline: 'Make your moments a memory with us',
     description:
       "Hello from Kannan(Founder) and Nagendran(co-founder) of KILIG events. Having been in the field from 2018, we have made 45+ marriages, 35+ birthday and baby showers, 25+ retirement parties and much more events colourful. "+
-       "We are up-to-date on trends and technology and are striving hard to be the best in our niche. We promise to make your dream moments true.",
+       "We are up-to-date on trend and technology and are striving hard to be the best in our niche. We promise to make your dream moments true.",
     buttonLabel: 'sign up',
     link:"reach out",
     imgStart: 'start',
